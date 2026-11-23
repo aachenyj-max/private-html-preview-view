@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1278" height="1230" viewBox="0 0 1278 1230" role="img" aria-labelledby="title">
+  <title id="title">White droplet with glowing gold waves</title>
+  <defs>
+    <radialGradient id="background" cx="50%" cy="47%" r="68%">
+      <stop stop-color="#170600"/>
+      <stop offset=".63" stop-color="#0c0201"/>
+      <stop offset="1" stop-color="#080201"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="380" x2="0" y2="756" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffdfab"/>
+      <stop offset="1" stop-color="#ffebc8"/>
+    </linearGradient>
+    <filter id="glow" x="150" y="275" width="970" height="600" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+  </defs>
+  <rect width="1278" height="1230" fill="url(#background)"/>
+  <path d="M351 403C260 481 243 636 316 735 M425 472C365 520 354 608 399 673 M848 472C908 520 917 608 870 673 M922 403C1013 481 1028 636 954 735"
+        fill="none" stroke="#ed891f" stroke-width="59" stroke-linecap="round" opacity=".43" filter="url(#glow)"/>
+  <path d="M351 403C260 481 243 636 316 735 M425 472C365 520 354 608 399 673 M848 472C908 520 917 608 870 673 M922 403C1013 481 1028 636 954 735"
+        fill="none" stroke="url(#gold)" stroke-width="44" stroke-linecap="round"/>
+  <path fill="#fdfdfd" fill-rule="evenodd" d="M620 397C629 385 644 383 654 394C696 442 786 562 788 650C790 742 726 810 635 811C552 812 481 748 482 654C483 571 575 448 620 397Z
+        M717 647C715 684 696 710 666 724C649 731 657 758 676 752C720 737 744 695 748 651C750 630 720 626 717 647Z"/>
+</svg>
